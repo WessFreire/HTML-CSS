@@ -1,0 +1,235 @@
+
+#p1{
+    color: blueviolet;
+}
+#p2{
+    color: blue;
+}
+#p3{
+    color: beige;
+}
+#p4{
+    color: green;
+}
+.odd{
+    color: yellow
+}
+.even{
+    color:brown
+}
+
+
+
+
+#h11{
+    font-family: silkscreen;
+}
+#p5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+
+#borderEX{
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    border-radius: 10px;
+}
+#p6{
+    border-bottom: dotted 5px yellow;
+    border-top: dotted 5px red;
+    border-left: dotted 5px orange;
+    border-right: dotted 5px blueviolet;
+
+    border-radius: 10px;
+}
+
+
+
+
+
+#shadowEX{
+    text-shadow: 3px 3px 5px;
+}
+#box1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(208, 213, 218);
+    box-shadow: 3px 3px 10px;
+}
+
+
+
+
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+
+
+
+
+
+#div1{
+    border: 2px solid;
+    height: 75px;
+    overflow:scroll;
+}
+
+
+
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 0px;
+}
+#box5{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: absolute;
+}
+
+
+
+
+#container{
+    border: 2px solid;
+}
+#container > p{
+    background-color: yellow;
+}
+
+
+
+
+a:link{
+    color: rgb(42, 106, 128);
+    font-size: 30px;
+}
+a:hover{
+    color: rgb(74, 105, 116);
+    font-size: 40px;
+}
+a:active{
+    color: brown;
+}
+li:hover{
+    background-color: aquamarine;
+}
+li:not(:hover){
+    background-color: bisque;
+}
+#greetings p{
+    background-color: cornflowerblue;
+    padding: 10px;
+    display: none;
+}
+#greetings:hover p{
+    display: block;
+}
+
+
+
+
+h2::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+#apple::after{
+    content: "🍏";
+}
+#orange::after{
+    content:"🍊";
+}
+#banana::after{
+    content:"🍌";
+}
+#fruit li::marker{
+    content: "✓";
+    color: green;
+    font-size: 1.5em;
+}
+
+
+
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgb(169, 172, 175);
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.dropdown .content{
+    display: none;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(155, 158, 160);
+}
+.dropdown a:hover{
+    background-color: blue;
+}
+
+
+.gallery{
+    display: inline-block;
+    border: 1px solid yellow;
+    width: 200px;
+}
+.gallery:hover{
+    border: 1px solid green;
+    cursor: pointer;
+}
+.gallery .discription{
+    padding: 10px;
+    text-align: center;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
