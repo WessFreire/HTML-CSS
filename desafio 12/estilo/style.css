@@ -58,6 +58,21 @@ section{
     font-size: 3.5vw;
 }
 
+section p{
+    padding-bottom: 2em;
+}
+
+#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+   
+}
+
+#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+}
+
 .normal{
     background-color: white;
     color: black;
@@ -65,14 +80,18 @@ section{
 }
 
 .imagem{
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(0, 0, 0, 0.733);
     color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
+    background-attachment: fixed;
 }
 
 .imagem p{
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.637);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0px black;
 }
 
 
