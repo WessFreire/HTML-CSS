@@ -28,6 +28,17 @@
         .num{
             text-align: right;
         }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n){    /*efeito zebrado na tabela*/
+            background-color: lightgrey;
+        }
     </style>
 </head>
 <body>
@@ -38,6 +49,7 @@
         Anatomia para tabelas grandes
 
         TABLE
+          CAPTION
           THEAD
             TR, TD, TH
           TBODY
@@ -47,10 +59,11 @@
     -->
 
     <table>
+        <caption>População dos estados Brasileiros</caption>
       <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
         </tr>
       </thead>    
       <tbody>
@@ -100,7 +113,7 @@
         </tr>
         <tr>
             <td>Maranhão</td>
-            <td class="num">6 775 805</td> class="num"
+            <td class="num">6 775 805</td>
         </tr>
         <tr>
             <td>Paraíba</td>
@@ -165,7 +178,7 @@
       </tbody>
       <tfoot>
         <tr>
-            <td>Total de habitantes</td>
+            <th scope="row">Total de habitantes</th>
             <td class="num">203.078.389</td>
         </tr>
       </tfoot>
