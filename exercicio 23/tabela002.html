@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -23,6 +24,13 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        } 
+
+        thead tr th{        /*cabeçalho fixo*/
+            position: sticky;
+            background-color: gray;
+            top: 0;
+
         }
 
         .num{
