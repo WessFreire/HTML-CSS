@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+
+    <style>
+        table{
+            width: 400px;
+            border-collapse:collapse ;
+        }
+
+        td{
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;    
+            vertical-align: middle; 
+        }
+
+        .vermelho{
+            background-color: red;
+        }
+
+        .verde{
+            background-color: green;
+        }
+
+        .azul{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <colgroup>
+        <col class="vermelho">
+        <col class="azul">
+        <col class="verde">
+    </colgroup>
+
+    <h1>Agrupando colunas com Colgroup</h1>
+    
+
+    <table>
+
+        <colgroup>
+            <col class="vermelho">
+            <col class="azul">
+            <col class="verde">
+        </colgroup>
+
+        <tr>
+            <td>A1</td> 
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>
